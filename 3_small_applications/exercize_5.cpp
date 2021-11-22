@@ -60,7 +60,7 @@ int main()
    {
       cout << setw(7) << rigo << "     ";
       cout << setw(5) << vett[rigo] << "     ";
-      for (i = 0; i < vett[rigo]; i++)
+      for (i = 0; i < (vett[rigo] * 10 / max); i++)
       {
          cout << "*";
       }
